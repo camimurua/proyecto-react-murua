@@ -1,0 +1,18 @@
+.card {
+    border: 1px solid;
+    padding: 3%;
+    width: 40%;
+    margin-left: 5%;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+.boton {
+    font-size: 150%;
+    padding: 1%;
+    background-color:rgb(134, 223, 218);
+    border: 1px solid;
+}

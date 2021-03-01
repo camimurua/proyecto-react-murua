@@ -1,0 +1,19 @@
+button {
+    font-size: 150%;
+    padding: 1%;
+    background-color:rgb(134, 223, 218);
+}
+
+b {
+    font-size: 120%;
+    margin-left: 2%;
+    margin-right:2%;
+}
+
+.container {
+    margin-left: 5%;
+}
+.containerB {
+    margin-left: 3%;
+    margin-top: 2%;
+}

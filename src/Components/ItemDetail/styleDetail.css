@@ -1,0 +1,31 @@
+.card {
+    border: 1px solid;
+    padding: 3%;
+    width: 40%;
+    margin-left: 5%;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
+
+button {
+    font-size: 150%;
+    padding: 1%;
+    background-color:rgb(134, 223, 218);
+}
+
+.boton {
+    font-size: 150%;
+    padding: 1%;
+    background-color:rgb(134, 223, 218);
+}
+
+.volver {
+    font-size: 150%;
+    padding: 1%;
+    background-color:rgb(134, 223, 218);
+    margin-left: 70%;
+    border: 1px solid;
+}
