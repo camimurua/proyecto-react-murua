@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {useEffect, useState} from 'react';
 import { useParams } from "react-router-dom";
 import ItemDetail from '../Components/ItemDetail/ItemDetail';
-import productList from '../Base/productList';
+import { getFirestore } from '../Firebase/Index';
 
 const ItemDetailContainer = () => {
 
@@ -14,17 +14,24 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
 
-        const detallePromise = new Promise ((resolve, reject) => {
-            resolve(productList);
-          });
+        const baseDeDatos = getFirestore();
 
-        detallePromise.then((result) => {
-                setLoading(false);
-                return setItem(result.find((element) => element.id.toString() === id))
-        });
+        const itemCollection = baseDeDatos.collection('ProductList');
 
-    }, []);
+        itemCollection.get().then((value) => {
+            
+            let aux = value.docs.map(element => {
+                return element.data();
+            })
 
+            const productoDetalle = aux.find(element => {
+                return element.id.toString() === id })
+
+            setItem(productoDetalle);
+            setLoading(false);
+        })     
+
+    } , [] );
 
     return (
         <>

@@ -13,7 +13,7 @@ const CartCompletoComponent = () => {
         <h2> CARRITO </h2>
         <div>
           {list.map((cartProd) => {
-            return <CartProdComponent key={cartProd.id} cartProd={cartProd} />;
+            return <CartProdComponent key={cartProd.item.id} cartProd={cartProd} />;
           })}
           <div>
           <Link to={`/`} className="volver"> Volver a Productos </Link>

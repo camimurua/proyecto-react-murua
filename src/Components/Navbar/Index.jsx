@@ -14,7 +14,7 @@ const NavbarComponent = () => {
     <>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-            <NavLink className="navbar-brand" to="/">Tienda de Celulares</NavLink>
+            <NavLink className="navbar-brand" to="/">MOBILE.SHOP</NavLink>
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <NavLink className="nav-link" aria-current="page" to="/categoria/motorola">

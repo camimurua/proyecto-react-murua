@@ -43,9 +43,7 @@ const ItemDetail = ( {item} ) => {
                 <img src={item.img} alt={item.nombre} />
                 <div>
                     <h2> {item.nombre} </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quibusdam fugiat? 
-                        Nisi perferendis eligendi fugit libero. Dignissimos minima fugit voluptate, aperiam ratione 
-                        tenetur veniam similique asperiores eaque ipsum sequi magnam?</p>
+                    <p>{item.descripcion}</p>
                     <p> Llega el viernes por la mañana. </p>
                     <p> Tiene hasta 12 cuotas sin interés. </p>
                 </div>
