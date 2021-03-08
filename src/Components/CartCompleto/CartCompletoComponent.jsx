@@ -3,6 +3,7 @@ import {useContext} from 'react';
 import {GlobalContext} from '../../Context/CartContext';
 import { Link } from "react-router-dom";
 
+
 const CartCompletoComponent = () => {
 
   const { list, clearCart } = useContext(GlobalContext);
@@ -22,7 +23,7 @@ const CartCompletoComponent = () => {
               $ <b>{list.precioTotal}</b>
             </h2>
           </div>
-          <button>Finalizar compra</button>
+          <Link to={`/checkout`} className="boton" >Finalizar compra </Link>
           <button onClick={clearCart}>
             Vaciar carrito
           </button>

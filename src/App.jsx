@@ -6,6 +6,7 @@ import NavbarComponent from './Components/Navbar/Index';
 import ItemListContainer from './Containers/ItemListContainer';
 import ItemDetailContainer from './Containers/ItemDetailContainer';
 import CartComponent from './Components/Cart/Cart';
+import CheckOutComponent from './Components/Checkout/Checkout'
 
 import {CartContext} from './Context/CartContext';
 
@@ -31,6 +32,10 @@ const App = () => {
 
                 <Route exact path="/carrito">
                   <CartComponent/>
+                </Route>
+
+                <Route exact path="/checkout">
+                  <CheckOutComponent/>
                 </Route>
 
                 <Route path="*" children={<div>Not found</div>} />
