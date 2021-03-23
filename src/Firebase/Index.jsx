@@ -17,6 +17,5 @@ import "@firebase/firestore";
     }
     
   export const getFirestore = () => {
-      //firebase.analytics(app);
       return firebase.firestore(app);
     }

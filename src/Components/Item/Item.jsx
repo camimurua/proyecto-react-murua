@@ -40,15 +40,15 @@ const Item = ({ item }) => {
     }
 
     return (
-            <div className="card">
+            <div className="cardItem">
                 <img src={item.img} alt={item.nombre} />
                 <h2>{item.nombre}</h2>
-                <Link to={`/product/${item.id}`} className="boton" > VER DETALLE </Link>
                 <ul>
                     <li>Precio: $ {item.precio} </li>
                     <li> Stock: {item.stock} </li>
+                    <Link to={`/product/${item.id}`} className="link"> VER DETALLE </Link>
                 </ul>
-                {carrito ? <Link to={`/carrito`} className="boton" > Terminar Compra</Link> 
+                {carrito ? <Link to={`/carrito`} className="finCompra" > Terminar Compra</Link> 
                 : <ItemCount onAdd={onAdd} onRest={onRest} onProx={onProx} 
                 contador={contador} />}
             </div>

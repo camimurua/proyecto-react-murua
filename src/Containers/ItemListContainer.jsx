@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react';
 import ItemList from "../Components/ItemList/ItemList";
 import { useParams } from "react-router-dom";
 import { getFirestore } from '../Firebase/Index';
+import './ContainerStyle.css';
 
 const ItemListContainer = () => {
 
@@ -33,7 +34,6 @@ const ItemListContainer = () => {
                     })
                     setProducts(listaTotal);
                 }
-            console.log(aux);
             setLoading(false);
         })        
     } , [nombre] );
@@ -41,9 +41,9 @@ const ItemListContainer = () => {
         
     return (
         <>
-            <h1> Bienvenido a mi Proyecto: </h1>
+            <h1 className="iniciar"> Bienvenidos a mi Tienda: </h1>
 
-            {loading ? <h2> Cargando... </h2> : <ItemList products={products}/> }
+            {loading ? <h2 className="carga"> Cargando... </h2> : <ItemList products={products}/> }
 
             
         </>

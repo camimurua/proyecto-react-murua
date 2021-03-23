@@ -9,6 +9,7 @@ import CartComponent from './Components/Cart/Cart';
 import CheckOutComponent from './Components/Checkout/Checkout'
 
 import {CartContext} from './Context/CartContext';
+import FooterComponent from './Components/Footer/FooterComponent';
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
                 <Route path="*" children={<div>Not found</div>} />
 
             </Switch>
+            <FooterComponent/>
         </BrowserRouter>
       </CartContext>
     </>

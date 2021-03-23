@@ -1,0 +1,18 @@
+.inicio {
+    font-size: 150%;
+    padding: 1%;
+    background-color:rgb(134, 223, 218);
+    color: rgb(39, 38, 38);
+    margin-left: 2%;
+    border: 1px solid;
+    width: 48%;
+}
+
+.carritoh2 {
+    margin-left: 2%;
+    margin-bottom: 4%;
+}
+
+.inicio:hover {
+    color:rgb(54, 113, 121);
+}

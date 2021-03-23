@@ -1,11 +1,17 @@
 .imagen { 
-    width: 10%;
+    width: 50% !important;
     height: 10%;
 }
 
 .card {
     border: 1px solid;
-    padding: 3%;
-    width: 40%;
-    margin-left: 5%;
+    padding: 2%;
+    width: 35%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+
+.botonEliminar {
+    padding: 11%;
+    margin-top: 55%;
 }

@@ -1,8 +1,11 @@
-.card {
+.cardDetail {
     border: 1px solid;
     padding: 3%;
     width: 40%;
-    margin-left: 5%;
+    margin-left: 30%;
+    margin-bottom: 8%;
+    margin-top: 5%;
+    background-color: rgb(199, 219, 236);
 }
 
 img {
@@ -16,16 +19,29 @@ button {
     background-color:rgb(134, 223, 218);
 }
 
-.boton {
-    font-size: 150%;
-    padding: 1%;
-    background-color:rgb(134, 223, 218);
-}
-
 .volver {
     font-size: 150%;
     padding: 1%;
     background-color:rgb(134, 223, 218);
+    color: rgb(39, 38, 38);
     margin-left: 70%;
     border: 1px solid;
+    width: 48%;
+}
+
+.volver:hover {
+    color:rgb(54, 113, 121);
+}
+
+.finCompra {
+    font-size: 150%;
+    background-color:rgb(134, 223, 218);
+    border: 1px solid;
+    color: rgb(39, 38, 38);
+    width: 48%;
+    padding-left: 1%;
+}
+
+.finCompra:hover {
+    color:rgb(54, 113, 121);
 }

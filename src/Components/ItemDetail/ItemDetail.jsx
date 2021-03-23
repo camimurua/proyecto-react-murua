@@ -39,19 +39,19 @@ const ItemDetail = ( {item} ) => {
 
     return (
         <>
-            <div className="card">
+            <div className="cardDetail">
                 <img src={item.img} alt={item.nombre} />
                 <div>
                     <h2> {item.nombre} </h2>
                     <p>{item.descripcion}</p>
-                    <p> Llega el viernes por la mañana. </p>
+                    <p> Llega entre 3 y 5 días hábiles </p>
                     <p> Tiene hasta 12 cuotas sin interés. </p>
                 </div>
                 <ul>
                     <li> Precio: $ {item.precio} </li>
                     <li> Stock: {item.stock} </li>
                 </ul>
-                {carrito ? <Link to={`/carrito`} className="boton" > Terminar Compra</Link> 
+                {carrito ? <Link to={`/carrito`} className="finCompra" > Terminar Compra</Link> 
                 : <ItemCount onAdd={onAdd} onRest={onRest} onProx={onProx} 
                 contador={contador} />}
             </div>
