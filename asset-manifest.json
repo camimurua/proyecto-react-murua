@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/proyecto-react-murua/static/css/main.e2a66c24.chunk.css",
+    "main.js": "/proyecto-react-murua/static/js/main.6d5ae9fc.chunk.js",
+    "main.js.map": "/proyecto-react-murua/static/js/main.6d5ae9fc.chunk.js.map",
+    "runtime-main.js": "/proyecto-react-murua/static/js/runtime-main.491d2dbd.js",
+    "runtime-main.js.map": "/proyecto-react-murua/static/js/runtime-main.491d2dbd.js.map",
+    "static/css/2.150d169a.chunk.css": "/proyecto-react-murua/static/css/2.150d169a.chunk.css",
+    "static/js/2.a8dbdd8f.chunk.js": "/proyecto-react-murua/static/js/2.a8dbdd8f.chunk.js",
+    "static/js/2.a8dbdd8f.chunk.js.map": "/proyecto-react-murua/static/js/2.a8dbdd8f.chunk.js.map",
+    "static/js/3.2f0f7942.chunk.js": "/proyecto-react-murua/static/js/3.2f0f7942.chunk.js",
+    "static/js/3.2f0f7942.chunk.js.map": "/proyecto-react-murua/static/js/3.2f0f7942.chunk.js.map",
+    "index.html": "/proyecto-react-murua/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/proyecto-react-murua/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.e2a66c24.chunk.css.map": "/proyecto-react-murua/static/css/main.e2a66c24.chunk.css.map",
+    "static/js/2.a8dbdd8f.chunk.js.LICENSE.txt": "/proyecto-react-murua/static/js/2.a8dbdd8f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.491d2dbd.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.a8dbdd8f.chunk.js",
+    "static/css/main.e2a66c24.chunk.css",
+    "static/js/main.6d5ae9fc.chunk.js"
+  ]
+}
